@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bgpix.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-size: 16px;
+  transition: 0.5s ease-in;
+}
+
+.message{
+  background: rgba(0,0,0,0.4);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container{
+  width: 90%;
+  max-width: 600px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1{
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  color: floralwhite;
+}
+
+
+.timer{
+  display: flex;
+  width: 100%;
+  background: black;
+  border-radius: 10px;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.timer div{
+  font-size: 2rem;
+  padding: 5px 10px;
+  color: floralwhite;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.day div{
+  text-align: center;
+  padding: 0 auto;
+}
+
+p{
+  font-size: 1rem;
+  text-align: center;
+  min-width: 100%;
+}
+
+
+/* ---- media query ---- */
+@media (max-width:576px){
+  h1{
+    flex-direction: column;
+  }
+  
+}
